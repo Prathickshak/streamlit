@@ -40,16 +40,3 @@ elif operation == "Division":
 
 # Display the result
 st.write("Result:", result)
-
-"""
-The code begins by importing the necessary libraries, streamlit.
-The mathematical operations (addition, subtraction, multiplication, and division) are defined as separate functions to perform the respective calculations.
-The Streamlit page is configured with a title and layout settings.
-The calculator's title is displayed using st.title().
-User input is obtained using st.number_input() to enter the first and second numbers.
-The operation selection is provided using st.selectbox(), where the user can choose from the available options.
-After obtaining the user's input, the code determines which operation was selected and calls the corresponding function to perform the calculation.
-The result is stored in the result variable.
-Finally, the result is displayed on the page using st.write().
-
-"""
